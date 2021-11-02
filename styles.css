@@ -1,3 +1,177 @@
-h1 {
-  color: blue;
+/* * {
+  border: 3px solid black;
+} */
+
+* {
+  font-family: 'Roboto', sans-serif;
 }
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+.learn {
+  width: 30%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lorem {
+  font-size: 30px;
+}
+
+.submit {
+  color: white;
+  background-color: rgb(85, 78, 78);
+  width: 50%;
+  height: 5%;
+
+}
+
+.learn h1 {
+  margin-top: 25%;
+  margin-bottom: 0;
+}
+
+.learn p {
+  margin-top: 3%;
+}
+
+
+.banner {
+  display: flex;
+  background-color: rgb(202, 196, 196);
+
+}
+
+
+.banner img {
+  width: 60%;
+  height: auto;
+  margin: 32px 24px;
+  padding: 20px;
+}
+nav {
+  margin-left: 60%;
+  margin-right: 24px;
+  display: flex;
+  width: 700px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#academy {
+  font-weight: bolder;
+}
+
+header {
+  display: flex;
+  height: 64px;
+}
+
+.logo {
+  display: flex;
+}
+
+.first {
+  display: flex;
+  /* border: 3px solid black; */
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: auto;
+  align-items: center;
+  
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  
+}
+
+.container1 img {
+  width: 90%;
+  height: auto;
+  margin-bottom: 0;
+  padding: 20px;
+}
+
+.content {
+  width: 90%;
+  margin-top: 0;
+
+}
+
+.top img, .middle img, .bottom img {
+  width: 35%;
+  height: auto;
+  
+}
+
+.top, .middle, .bottom {
+  margin: 5%;
+  display: flex;
+  height: 30%;
+}
+
+.container1 h2 {
+  margin-top: 20px;
+  margin-bottom: 3%;
+}
+
+.container1 p {
+  margin-top: 0;
+  margin-bottom: 4%;
+  /* font-family:cursive; */
+  color: grey;
+}
+
+author {
+  /* font-family:cursive; */
+  color: grey;
+}
+
+.collection {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+}
+
+.card {
+  height: auto;
+  width: 25%;
+  margin: 10px;
+  overflow: hidden;
+  background-color: honeydew;
+}
+
+.second h2 {
+  text-align: center;
+  margin-top: 32px;
+  
+}
+
+h4 {
+  font-size: 22px;
+  /* font-family:cursive; */
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.second {
+  background-color: rgb(202, 196, 196);
+}
+
+
+
+
