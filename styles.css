@@ -77,15 +77,6 @@ header {
   display: flex;
 }
 
-
-
-
-
-
-
-
-
-
 .first {
   display: flex;
   /* border: 3px solid black; */
@@ -136,7 +127,6 @@ header {
   margin-bottom: 3%;
 }
 
-
 .container1 p {
   margin-top: 0;
   margin-bottom: 4%;
@@ -182,10 +172,7 @@ h4 {
   flex-direction: column;
 }
 
-
-
 .left {
-
   display: flex;
   flex-direction: column;
   width: 65%;
@@ -218,7 +205,8 @@ video {
   flex-direction: column;
 }
 
-.top1, .bottom1 {
+.top1,
+.bottom1 {
   display: flex;
   flex-wrap: wrap;
   padding: 5px;
@@ -228,19 +216,19 @@ video {
   background-color: cornsilk;
 }
 
-.top1 img, .bottom1 img {
+.top1 img,
+.bottom1 img {
   width: 35%;
 }
 
-.fisma, .now-then {
+.fisma,
+.now-then {
   padding-left: 3px;
 }
 
 .common1 {
   display: flex;
 }
-
-
 
 .second h2 {
   text-align: center;
@@ -250,15 +238,13 @@ h2 {
   text-align: center;
 }
 
-
 @media only screen and (max-width: 700px) {
   .second {
     flex-wrap: wrap;
     flex-direction: column;
   }
-  .container1{
+  .container1 {
     display: none;
-
   }
   .container2 {
     width: 100%;
@@ -278,30 +264,26 @@ h2 {
     /* margin: 0; */
   }
 
-.common {
-  flex-wrap: wrap;
-}
+  .common {
+    flex-wrap: wrap;
+  }
 
-.vid {
-  display: none;
-}
-
-  
+  .vid {
+    display: none;
+  }
 
   video {
     width: 100%;
   }
 
-  .container p{
+  .container p {
     display: none;
-    
   }
 
   .collection {
     flex-direction: column;
     width: 100%;
   }
-
 
   .logo p,
   nav a {
@@ -322,7 +304,6 @@ h2 {
     margin: 0;
     padding: 0;
     padding-top: 3px;
-  
   }
 
   .submit {
@@ -339,7 +320,4 @@ h2 {
   .card img {
     display: none;
   }
-
- 
- 
 }
