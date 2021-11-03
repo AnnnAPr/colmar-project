@@ -275,6 +275,16 @@ h2 {
     display: none;
   }
 
+  .vid1 {
+    width: 70%;
+  }
+
+  .vid1 p{
+    overflow: hidden;
+  }
+
+
+
   video {
     width: 100%;
   }
