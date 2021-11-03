@@ -3,7 +3,7 @@
 } */
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -16,10 +16,10 @@ h2 {
 
 .learn {
   width: 30%;
-  
+
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .lorem {
   font-size: 30px;
@@ -28,9 +28,10 @@ h2 {
 .submit {
   color: white;
   background-color: rgb(85, 78, 78);
-  width: 50%;
-  height: 5%;
-
+  width: 70%;
+  height: 7%;
+  margin-top: 10%;
+  font-size: larger;
 }
 
 .learn h1 {
@@ -42,13 +43,11 @@ h2 {
   margin-top: 3%;
 }
 
-
 .banner {
   display: flex;
   background-color: rgb(202, 196, 196);
-
+  flex-wrap: wrap;
 }
-
 
 .banner img {
   width: 60%;
@@ -78,6 +77,15 @@ header {
   display: flex;
 }
 
+
+
+
+
+
+
+
+
+
 .first {
   display: flex;
   /* border: 3px solid black; */
@@ -89,13 +97,11 @@ header {
   width: 65%;
   height: auto;
   align-items: center;
-  
 }
 .container2 {
   display: flex;
   flex-direction: column;
   width: 30%;
-  
 }
 
 .container1 img {
@@ -108,16 +114,18 @@ header {
 .content {
   width: 90%;
   margin-top: 0;
-
 }
 
-.top img, .middle img, .bottom img {
+.top img,
+.middle img,
+.bottom img {
   width: 35%;
   height: auto;
-  
 }
 
-.top, .middle, .bottom {
+.top,
+.middle,
+.bottom {
   margin: 5%;
   display: flex;
   height: 30%;
@@ -127,6 +135,7 @@ header {
   margin-top: 20px;
   margin-bottom: 3%;
 }
+
 
 .container1 p {
   margin-top: 0;
@@ -141,10 +150,10 @@ author {
 }
 
 .collection {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .card {
@@ -158,7 +167,6 @@ author {
 .second h2 {
   text-align: center;
   margin-top: 32px;
-  
 }
 
 h4 {
@@ -170,8 +178,168 @@ h4 {
 
 .second {
   background-color: rgb(202, 196, 196);
+  display: flex;
+  flex-direction: column;
 }
 
 
 
+.left {
 
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: auto;
+  align-items: center;
+}
+
+video {
+  width: 90%;
+  height: auto;
+  /* margin: 32px 24px; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.orientation,
+.campus,
+.guest {
+  margin-left: 5%;
+}
+
+.common {
+  display: flex;
+}
+
+.left {
+  width: 60%;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top1, .bottom1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.top1 {
+  background-color: cornsilk;
+}
+
+.top1 img, .bottom1 img {
+  width: 35%;
+}
+
+.fisma, .now-then {
+  padding-left: 3px;
+}
+
+.common1 {
+  display: flex;
+}
+
+
+
+.second h2 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .second {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .container1{
+    display: none;
+
+  }
+  .container2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .card {
+    background-color: rgb(202, 196, 196);
+  }
+
+  .right {
+    display: none;
+  }
+
+  .left {
+    width: 110%;
+    /* margin: 0; */
+  }
+
+.common {
+  flex-wrap: wrap;
+}
+
+.vid {
+  display: none;
+}
+
+  
+
+  video {
+    width: 100%;
+  }
+
+  .container p{
+    display: none;
+    
+  }
+
+  .collection {
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+  .logo p,
+  nav a {
+    display: none;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+
+  .learn {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    padding-top: 3px;
+  
+  }
+
+  .submit {
+    margin-bottom: 3%;
+    height: 30%;
+    width: 100%;
+  }
+
+  h1 {
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .card img {
+    display: none;
+  }
+
+ 
+ 
+}
