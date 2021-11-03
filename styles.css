@@ -164,6 +164,9 @@ h4 {
   /* font-family:cursive; */
   margin-top: 10px;
   margin-bottom: 0;
+  /* background-color: cornsilk; */
+  /* width: 100%;
+  height: auto; */
 }
 
 .second {
@@ -283,6 +286,17 @@ h2 {
   .collection {
     flex-direction: column;
     width: 100%;
+    background-color: white;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  h4 {
+    text-align: center;
+
   }
 
   .logo p,
@@ -304,6 +318,11 @@ h2 {
     margin: 0;
     padding: 0;
     padding-top: 3px;
+    /* padding-left: 2%; */
+  }
+
+  .learn h1, .learn p {
+    padding-left: 2%;
   }
 
   .submit {
